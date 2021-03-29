@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <h1>Tip Calculator</h1>
+        <form id="form">
+            <div class="tipInput">
+                <div class="takaicon">
+                    <span>Ammount $</span>
+                </div>
+                <div class='takaammount'>
+                    <input type="number" name="" id="inp">
+                </div>
+
+            </div>
+
+            <div class="tiprange">
+                <div class="mainrange">
+                    <span>Tip</span>
+                    <input min="0" max="100" type="range" name="" id="range" value="0">
+                </div>
+                <span class="rangeview" id="rangeView"></span>
+            </div>
+        </form>
+        <hr>
+
+
+
+        <div class="resultDiv" id="resultDiv">
+
+            <h3>Result</h3>
+
+            <div class="showtip">
+                <div class="tipicon">
+                    <span>Tip ammount $</span>
+                </div>
+
+                <div class="tipammount">
+                    <input type="number" name="" id="tipAmmount" disabled>
+                </div>
+            </div>
+
+            <div class="showfullAmmount">
+                <div class="fullicon">
+                    <span>Total bill with Tip $</span>
+                </div>
+
+                <div class="withtipammount">
+                    <input type="number" name="" id="fullAmmount" disabled>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
